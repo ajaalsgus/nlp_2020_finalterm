@@ -17,9 +17,9 @@
 머신러닝 모델 | 전처리 | 모델 상세
 ----- | ----- | -----
 Logistic Regression | NLTK, TF-IDF, Regular Expression  | 별도 하이퍼파라미터 적용 없음
-Random Forest | (상동) | 별도 하이퍼파라미터 적용 없음
-XGBoost | (상동) | 별도 하이퍼파라미터 적용 없음
-Light GBM | (상동) | 별도 하이퍼파라미터 적용 없음
+Random Forest | (상동) | (상동)
+XGBoost | (상동) | (상동)
+Light GBM | (상동) | (상동)
 
 * **딥러닝 모델**
   - ANN : [참고 소스 출처](https://devtimes.com/nlp-korea-movie-review)
