@@ -9,13 +9,13 @@
 
 ## 1. 영어(Friends)
 * **데이터 출처** : http://doraemon.iis.sinica.edu.tw/emotionlines/
- 
+
 * **머신러닝 모델**
   - Logistic Regression
   - Random Forest
   - XGBoost
   - Light GBM 
- 
+
 * **딥러닝 모델**
   - ANN : [참고 소스 출처](https://devtimes.com/nlp-korea-movie-review)
   - CNN : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
@@ -37,7 +37,7 @@ CNN | Tensorflow tokenizer, Regular Expression | 1차원 Conv1D 합성곱 레이
 LSTM | (상동) | LSTM 레이어 2개 적용
 BERT | 유니코드 '\x92' 제거 | Google 제공 bert-base-multilingual-cased 적용
 ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base, electra-large 적용
- 
+
 * **앙상블 모델**
   - Voting(다수결) 방식 적용(직접 구현) => [해당 소스 이동](https://github.com/ajaalsgus/nlp_2020_finalterm/blob/main/01_FRIENDS/12_FRIENDS_Ensemble_NN_ELECTRA_EmoLexSWD_7.ipynb)
 
@@ -45,13 +45,13 @@ ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base
 
 ## 2. 한국어(NSMC)
 * **데이터 출처** : https://github.com/e9t/nsmc
- 
+
 * **머신러닝 모델**
   - Logistic Regression
   - Random Forest
   - XGBoost
   - Light GBM
- 
+
 * **딥러닝 모델**
   - ANN : [참고 소스 출처](https://devtimes.com/nlp-korea-movie-review)
   - CNN : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
