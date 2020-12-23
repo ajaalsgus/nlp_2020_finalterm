@@ -7,14 +7,14 @@
 
 ## 1. 영어(Friends)
 * **머신러닝 모델**
-  - Logistic Regression : TF-IDF 벡터화 적용
-  - Random Forest : TF-IDF 벡터화 적용
-  - XGBoost : TF-IDF 벡터화 적용
-  - Light GBM : TF-IDF 벡터화 적용
+  - Logistic Regression
+  - Random Forest
+  - XGBoost
+  - Light GBM 
 
 * **딥러닝 모델**
-  - ANN 
-  - CNN 
+  - ANN
+  - CNN
   - LSTM
   - BERT
   - ELECTRA
@@ -22,14 +22,29 @@
 * **앙상블 모델**
   - Voting 방식 적용 
 
+머신러닝 모델 | 전처리 | 모델 상세
+----- | ----- | -----
+Logistic Regression | NLTK, TF-IDF, Regular Expression | -
+Random Forest | (상동) | -
+XGBoost | (상동) | -
+Light GBM | (상동) | -
+
+딥러닝 모델 | 전처리 | 모델 상세
+----- | ----- | -----
+ANN | NLTK, TF-IDF, Regular Expression | -
+CNN | Tensorflow tokenizer, Regular Expression | -
+LSTM | (상동) | -
+BERT | 유니코드 '\x92' 제거 | -
+ELECTRA | 유니코드 '\x92' 제거 | -
+
 ---
 
 ## 2. 한국어(NSMC)
 * **머신러닝 모델**
-  - Logistic Regression : TF-IDF 벡터화 적용
-  - Random Forest : TF-IDF 벡터화 적용
-  - XGBoost : TF-IDF 벡터화 적용
-  - Light GBM : TF-IDF 벡터화 적용
+  - Logistic Regression : KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용
+  - Random Forest : KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용
+  - XGBoost : KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용
+  - Light GBM : KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용
 
 * **딥러닝 모델**
   - ANN : 카운트 기반 벡터화 적용 ([참고 소스 출처](https://devtimes.com/nlp-korea-movie-review))
