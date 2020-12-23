@@ -59,7 +59,7 @@ Light GBM | (상동) | (상동)
   - ANN : [참고 소스 출처](https://devtimes.com/nlp-korea-movie-review)
   - CNN : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
   - LSTM : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
-  - BERT :[참고 소스 출처](https://github.com/deepseasw/bert-naver-movie-review)
+  - BERT : [참고 소스 출처](https://github.com/deepseasw/bert-naver-movie-review)
   - KoBERT : [참고 소스 출처](https://github.com/SKTBrain/KoBERT#using-with-pytorch)
   - KoELECTRA : [참고 소스 출처](https://github.com/monologg/KoELECTRA)
 
