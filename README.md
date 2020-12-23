@@ -8,6 +8,8 @@
 ---
 
 ## 1. 영어(Friends)
+* **데이터 출처** : http://doraemon.iis.sinica.edu.tw/emotionlines/index.html
+
 * **머신러닝 모델**
   - Logistic Regression
   - Random Forest
@@ -42,6 +44,8 @@ ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base
 ---
 
 ## 2. 한국어(NSMC)
+* **데이터 출처** : https://github.com/e9t/nsmc.git
+
 * **머신러닝 모델**
   - Logistic Regression
   - Random Forest
