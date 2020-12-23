@@ -11,6 +11,7 @@
   - Random Forest
   - XGBoost
   - Light GBM
+
 * 딥러닝 모델
   - ANN 
   - CNN 
