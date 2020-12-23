@@ -32,12 +32,12 @@
   - Light GBM : TF-IDF 벡터화 적용
 
 * **딥러닝 모델**
-  - ANN : 카운트 기반 벡터화 적용
-  - CNN 
-  - LSTM
-  - BERT
-  - KoBERT
-  - KoELECTRA :  ( [소스 참고](https://github.com/monologg/KoELECTRA) )
+  - ANN : 카운트 기반 벡터화 적용 ([참고 소스 출처](https://devtimes.com/nlp-korea-movie-review))
+  - CNN : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
+  - LSTM : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
+  - BERT : Google 제공 bert-base-multilingual-cased 모델(Pyrotch) 적용 ([참고 소스 출처](https://github.com/deepseasw/bert-naver-movie-review))
+  - KoBERT : SKT(T-Brain) 제공 모델(Pytorch) 적용 ([참고 소스 출처](https://github.com/SKTBrain/KoBERT#using-with-pytorch))
+  - KoELECTRA : KoELECTRA-v3 모델(Pytorch) 적용 ([참고 소스 출처](https://github.com/monologg/KoELECTRA))
 
 * **앙상블 모델**
   - Voting 방식 적용 
