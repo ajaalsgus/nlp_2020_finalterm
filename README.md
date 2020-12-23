@@ -20,19 +20,20 @@ XGBoost | (상동) | -
 Light GBM | (상동) | -
 
 * **딥러닝 모델**
-  - ANN
-  - CNN
-  - LSTM
-  - BERT
-  - ELECTRA
+  - ANN : [참고 소스 출처](https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
+https://devtimes.com/nlp-korea-movie-review)
+  - CNN : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
+  - LSTM : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
+  - BERT : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
+  - ELECTRA : [참고 소스 출처](https://github.com/jiwonny/nlp_emotion_classification/blob/master/friends_electra.ipynb)
 
 딥러닝 모델 | 전처리 | 모델 상세
 ----- | ----- | -----
 ANN | NLTK, TF-IDF, Regular Expression | 각 64개 뉴런(노드) 보유한 2개 은닉층 적용
 CNN | Tensorflow tokenizer, Regular Expression | 1차원 Conv1D 합성곱 레이어 3개 및 Max Pooling 적용
 LSTM | (상동) | LSTM 레이어 2개 적용
-BERT | 유니코드 '\x92' 제거 | bert-base-multilingual-cased 적용
-ELECTRA | 유니코드 '\x92' 제거 | electra-small, electra-base, electra-large 적용
+BERT | 유니코드 '\x92' 제거 | Google 제공 bert-base-multilingual-cased 적용
+ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base, electra-large 적용
 
 * **앙상블 모델**
   - Voting(다수결) 방식 적용(직접 구현)
