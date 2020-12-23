@@ -39,7 +39,7 @@ BERT | 유니코드 '\x92' 제거 | Google 제공 bert-base-multilingual-cased �
 ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base, electra-large 적용
 
 * **앙상블 모델**
-  - Voting(다수결) 방식 적용(직접 구현)
+  - Voting(다수결) 방식 적용(직접 구현) => https://github.com/ajaalsgus/nlp_2020_finalterm/blob/main/01_FRIENDS/12_FRIENDS_Ensemble_NN_ELECTRA_EmoLexSWD_7.ipynb
 
 ---
 
