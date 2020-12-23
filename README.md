@@ -1,5 +1,7 @@
 # 빅데이터자연어처리 프로젝트
 * 영어, 한국어 감정 분류 모델 개발
+  - [English SA Competition - BDC101](https://www.kaggle.com/c/english-sa-competition-bdc101/)
+  - [Korean SA Competition - BDC101](https://www.kaggle.com/c/korean-sa-competition-bdc101/)
 * 머신러닝, 딥러닝, 앙상블 기법 활용
 ---
 
