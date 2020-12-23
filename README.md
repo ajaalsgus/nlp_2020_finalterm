@@ -78,7 +78,7 @@ KoELECTRA | KoELECTRA-v3 토크나이저 적용 | KoELECTRA-v3 모델 적용
 
 
 * **앙상블 모델**
-  - Voting(다수결) 방식 적용(직접 구현)
+  - Voting(다수결) 방식 적용(직접 구현) => https://github.com/ajaalsgus/nlp_2020_finalterm/blob/main/02_NSMC/12_NSMC_Ensemble_NN_KoELECTRA_KoBERT.ipynb
 
 ---
 
