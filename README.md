@@ -7,14 +7,10 @@
 
 ## 1. 영어(Friends)
 * 머신러닝 모델
-  - Logistic Regression
-    + 리스트3
-
-* 머신러닝 모델
-  - Logistic Regression
-  - Random Forest
-  - XGBoost
-  - Light GBM
+  - Logistic Regression : TF-IDF 벡터화 적용
+  - Random Forest : TF-IDF 벡터화 적용
+  - XGBoost : TF-IDF 벡터화 적용
+  - Light GBM : TF-IDF 벡터화 적용
 
 * 딥러닝 모델
   - ANN 
@@ -29,9 +25,22 @@
 ---
 
 ## 2. 한국어(NSMC)
-* 리스트1
-  - 리스트2
-    + 리스트3
+* 머신러닝 모델
+  - Logistic Regression : TF-IDF 벡터화 적용
+  - Random Forest : TF-IDF 벡터화 적용
+  - XGBoost : TF-IDF 벡터화 적용
+  - Light GBM : TF-IDF 벡터화 적용
+
+* 딥러닝 모델
+  - ANN : 카운트 기반 벡터화 적용
+  - CNN 
+  - LSTM
+  - BERT
+  - KoBERT
+  - KoELECTRA
+
+* 앙상블 모델
+  - Voting 방식 적용 
 
 ---
 
