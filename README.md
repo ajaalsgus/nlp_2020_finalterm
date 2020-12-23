@@ -26,11 +26,6 @@ Light GBM | (상동) | -
   - BERT
   - ELECTRA
 
-* **앙상블 모델**
-  - Voting 방식 적용 
-
-
-
 딥러닝 모델 | 전처리 | 모델 상세
 ----- | ----- | -----
 ANN | NLTK, TF-IDF, Regular Expression | -
@@ -38,6 +33,9 @@ CNN | Tensorflow tokenizer, Regular Expression | -
 LSTM | (상동) | -
 BERT | 유니코드 '\x92' 제거 | -
 ELECTRA | 유니코드 '\x92' 제거 | -
+
+* **앙상블 모델**
+  - Voting(다수결) 방식 적용(직접 구현)
 
 ---
 
@@ -57,7 +55,7 @@ ELECTRA | 유니코드 '\x92' 제거 | -
   - KoELECTRA : KoELECTRA-v3 모델(Pytorch) 적용 ([참고 소스 출처](https://github.com/monologg/KoELECTRA))
 
 * **앙상블 모델**
-  - Voting 방식 적용 
+  - Voting(다수결) 방식 적용(직접 구현)
 
 ---
 
