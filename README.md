@@ -27,6 +27,7 @@
   - Voting(다수결) 방식 적용(직접 구현) => [해당 소스 이동](https://github.com/ajaalsgus/nlp_2020_finalterm/blob/main/01_FRIENDS/12_FRIENDS_Ensemble_NN_ELECTRA_EmoLexSWD_7.ipynb)
 
 * **개별 모델 상세**
+
 머신러닝 | 전처리 | 모델
 ----- | ----- | -----
 Logistic Regression | NLTK, TF-IDF, Regular Expression  | 별도 하이퍼파라미터 적용 없음
@@ -65,6 +66,7 @@ ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base
   - Voting(다수결) 방식 적용(직접 구현) => [해당 소스 이동](https://github.com/ajaalsgus/nlp_2020_finalterm/blob/main/02_NSMC/12_NSMC_Ensemble_NN_KoELECTRA_KoBERT.ipynb)
 
 * **개별 모델 상세**
+
 머신러닝 | 전처리 | 모델
 ----- | ----- | -----
 Logistic Regression | KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용 | 별도 하이퍼파라미터 적용 없음
