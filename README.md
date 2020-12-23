@@ -8,6 +8,10 @@
 ## 1. 영어(Friends)
 * 머신러닝 모델
   - Logistic Regression
+    + 리스트3
+
+* 머신러닝 모델
+  - Logistic Regression
   - Random Forest
   - XGBoost
   - Light GBM
