@@ -6,40 +6,40 @@
 ---
 
 ## 1. 영어(Friends)
-* 머신러닝 모델
+* **머신러닝 모델**
   - Logistic Regression : TF-IDF 벡터화 적용
   - Random Forest : TF-IDF 벡터화 적용
   - XGBoost : TF-IDF 벡터화 적용
   - Light GBM : TF-IDF 벡터화 적용
 
-* 딥러닝 모델
+* **딥러닝 모델**
   - ANN 
   - CNN 
   - LSTM
   - BERT
   - ELECTRA
 
-* 앙상블 모델
+* **앙상블 모델**
   - Voting 방식 적용 
 
 ---
 
 ## 2. 한국어(NSMC)
-* 머신러닝 모델
+* **머신러닝 모델**
   - Logistic Regression : TF-IDF 벡터화 적용
   - Random Forest : TF-IDF 벡터화 적용
   - XGBoost : TF-IDF 벡터화 적용
   - Light GBM : TF-IDF 벡터화 적용
 
-* 딥러닝 모델
+* **딥러닝 모델**
   - ANN : 카운트 기반 벡터화 적용
   - CNN 
   - LSTM
   - BERT
   - KoBERT
-  - KoELECTRA
+  - KoELECTRA :  ( [소스 참고](https://github.com/monologg/KoELECTRA) )
 
-* 앙상블 모델
+* **앙상블 모델**
   - Voting 방식 적용 
 
 ---
