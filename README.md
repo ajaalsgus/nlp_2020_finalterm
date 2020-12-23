@@ -26,14 +26,15 @@
 * **앙상블 모델**
   - Voting(다수결) 방식 적용(직접 구현) => [해당 소스 이동](https://github.com/ajaalsgus/nlp_2020_finalterm/blob/main/01_FRIENDS/12_FRIENDS_Ensemble_NN_ELECTRA_EmoLexSWD_7.ipynb)
 
-머신러닝 | 전처리 | 모델 상세
+* **개별 모델 상세**
+머신러닝 | 전처리 | 모델
 ----- | ----- | -----
 Logistic Regression | NLTK, TF-IDF, Regular Expression  | 별도 하이퍼파라미터 적용 없음
 Random Forest | (상동) | (상동)
 XGBoost | (상동) | (상동)
 Light GBM | (상동) | (상동)
 
-딥러닝 | 전처리 | 모델 상세
+딥러닝 | 전처리 | 모델
 ----- | ----- | -----
 ANN | NLTK, TF-IDF, Regular Expression | 각 64개 뉴런(노드) 보유한 2개 은닉층 적용
 CNN | Tensorflow tokenizer, Regular Expression | 1차원 Conv1D 합성곱 레이어 3개 및 Max Pooling 적용
@@ -63,14 +64,15 @@ ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base
 * **앙상블 모델**
   - Voting(다수결) 방식 적용(직접 구현) => [해당 소스 이동](https://github.com/ajaalsgus/nlp_2020_finalterm/blob/main/02_NSMC/12_NSMC_Ensemble_NN_KoELECTRA_KoBERT.ipynb)
 
-머신러닝 | 전처리 | 모델 상세
+* **개별 모델 상세**
+머신러닝 | 전처리 | 모델
 ----- | ----- | -----
 Logistic Regression | KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용 | 별도 하이퍼파라미터 적용 없음
 Random Forest | (상동) | (상동)
 XGBoost | (상동) | (상동)
 Light GBM | (상동) | (상동)
 
-딥러닝 | 전처리 | 모델 상세
+딥러닝 | 전처리 | 모델
 ----- | ----- | -----
 ANN | KoNLPy Okt(Twitter), Count Vectorization, Regular Expression | 각 64개 뉴런(노드) 보유한 2개 은닉층 적용
 CNN | KoNLPy Okt(Twitter), Tensorflow tokenizer, Regular Expression | 1차원 Conv1D 합성곱 레이어 3개 및 Max Pooling 적용
