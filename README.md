@@ -12,6 +12,13 @@
   - XGBoost
   - Light GBM 
 
+머신러닝 모델 | 전처리 | 모델 상세
+----- | ----- | -----
+Logistic Regression | NLTK, TF-IDF, Regular Expression | -
+Random Forest | (상동) | -
+XGBoost | (상동) | -
+Light GBM | (상동) | -
+
 * **딥러닝 모델**
   - ANN
   - CNN
@@ -22,12 +29,7 @@
 * **앙상블 모델**
   - Voting 방식 적용 
 
-머신러닝 모델 | 전처리 | 모델 상세
------ | ----- | -----
-Logistic Regression | NLTK, TF-IDF, Regular Expression | -
-Random Forest | (상동) | -
-XGBoost | (상동) | -
-Light GBM | (상동) | -
+
 
 딥러닝 모델 | 전처리 | 모델 상세
 ----- | ----- | -----
