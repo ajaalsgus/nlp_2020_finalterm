@@ -2,13 +2,22 @@
 * 영어, 한국어 감정 분류 모델 개발
   - [English SA Competition - BDC101](https://www.kaggle.com/c/english-sa-competition-bdc101/)
   - [Korean SA Competition - BDC101](https://www.kaggle.com/c/korean-sa-competition-bdc101/)
-* 머신러닝, 딥러닝, 앙상블 기법 활용
+* 머신러닝, 딥러닝, 앙상블 기법 활용하여 견고한 성능의 모형을 구축하는 것을 목표로 함
 ---
 
 ## 1. 영어(Friends)
-* 리스트1
-  - 리스트2
-    + 리스트3
+* 머신러닝 모델
+  - Logistic Regression
+  - Random Forest
+  - XGBoost
+  - Light GBM
+
+* 딥러닝 모델
+  - ANN 
+  - CNN 
+  - LSTM
+  - BERT
+  - ELECTRA
 
 ---
 
@@ -28,13 +37,17 @@
 ---
 
 ## 4. 기타
-*텍스트*
-
-**텍스트**
+* 리스트1
+  - 리스트2
+    + 리스트3
 
 1. 리스트1
 2. 리스트2
 3. 리스트3 
+
+*텍스트*
+
+**텍스트**
 
 (1) 인라인 링크  
 
