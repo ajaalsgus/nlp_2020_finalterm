@@ -44,7 +44,7 @@ ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base
 ---
 
 ## 2. 한국어(NSMC)
-* **데이터 출처** : https://github.com/e9t/nsmc.git
+* **데이터 출처** : https://github.com/e9t/nsmc
  
 * **머신러닝 모델**
   - Logistic Regression
