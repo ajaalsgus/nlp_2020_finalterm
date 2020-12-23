@@ -70,7 +70,7 @@ CNN | KoNLPy Okt(Twitter), Tensorflow tokenizer, Regular Expression | 1차원 Co
 LSTM | (상동) | LSTM 레이어 2개 적용
 BERT | Google 제공 bert-base-multilingual-cased 적용 | Google 제공 bert-base-multilingual-cased 적용
 KoBERT | SKT 제공 kobert.utils 라이브러리 get_tokenizer 적용 | SKT 제공 kobert.pytorch_kobert 라이브러리 get_pytorch_kobert_model 적용
-KoELECTRA | Google 제공 electra-small, electra-base, electra-large 적용 | KoELECTRA-v3 모델 적용
+KoELECTRA | KoELECTRA-v3 토크나이저 적용 | KoELECTRA-v3 모델 적용
 
 
 * **앙상블 모델**
