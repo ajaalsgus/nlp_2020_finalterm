@@ -19,6 +19,9 @@
   - BERT
   - ELECTRA
 
+* 앙상블 모델
+  - Voting 방식 적용 
+
 ---
 
 ## 2. 한국어(NSMC)
