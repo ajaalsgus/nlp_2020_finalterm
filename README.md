@@ -59,9 +59,9 @@ Light GBM | (상동) | (상동)
   - ANN : [참고 소스 출처](https://devtimes.com/nlp-korea-movie-review)
   - CNN : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
   - LSTM : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
-  - BERT : Google 제공 bert-base-multilingual-cased 모델(Pyrotch) 적용 ([참고 소스 출처](https://github.com/deepseasw/bert-naver-movie-review))
-  - KoBERT : SKT(T-Brain) 제공 모델(Pytorch) 적용 ([참고 소스 출처](https://github.com/SKTBrain/KoBERT#using-with-pytorch))
-  - KoELECTRA :  ([참고 소스 출처](https://github.com/monologg/KoELECTRA))
+  - BERT :[참고 소스 출처](https://github.com/deepseasw/bert-naver-movie-review)
+  - KoBERT : [참고 소스 출처](https://github.com/SKTBrain/KoBERT#using-with-pytorch)
+  - KoELECTRA : [참고 소스 출처](https://github.com/monologg/KoELECTRA)
 
 딥러닝 모델 | 전처리 | 모델 상세
 ----- | ----- | -----
@@ -69,7 +69,7 @@ ANN | KoNLPy Okt(Twitter), Count Vectorization, Regular Expression | 각 64개 �
 CNN | KoNLPy Okt(Twitter), Tensorflow tokenizer, Regular Expression | 1차원 Conv1D 합성곱 레이어 3개 및 Max Pooling 적용
 LSTM | (상동) | LSTM 레이어 2개 적용
 BERT | Google 제공 bert-base-multilingual-cased 적용 | Google 제공 bert-base-multilingual-cased 적용
-KoBERT | SKT 제공 kobert.utils 라이브러리 get_tokenizer 적용 | SKT 제공 kobert.pytorch_kobert 라이브러리 get_pytorch_kobert_model 적용
+KoBERT | SKT(T-Brain) 제공 kobert.utils 라이브러리 get_tokenizer 적용 | SKT(T-Brain) 제공 kobert.pytorch_kobert 라이브러리 get_pytorch_kobert_model 적용
 KoELECTRA | KoELECTRA-v3 토크나이저 적용 | KoELECTRA-v3 모델 적용
 
 
