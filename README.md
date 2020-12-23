@@ -3,7 +3,7 @@
   - [English SA Competition - BDC101](https://www.kaggle.com/c/english-sa-competition-bdc101/)
   - [Korean SA Competition - BDC101](https://www.kaggle.com/c/korean-sa-competition-bdc101/)
 * 머신러닝, 딥러닝, 앙상블 기법 활용하여 견고한 성능의 모형을 구축하는 것을 목표로 함
-* 모델 관련 별도 설명 없는 것은 직접 구현 대상
+* 모델 관련 출처 등 별도 설명 없는 것은 직접 구현 대상
 
 ---
 
