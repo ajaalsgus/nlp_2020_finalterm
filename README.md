@@ -82,19 +82,13 @@ KoELECTRA | KoELECTRA-v3 토크나이저 적용 | KoELECTRA-v3 모델 적용
 
 ---
 
-## 3. 인용
-> 인용1
-
-> 인용2
->> 인용안의 인용
-
----
-
 ## 기타
 * 추가 데이터(한국어) : KNU 감성사전 => https://github.com/park1200656/KnuSentiLex
 * 추가 데이터(한국어) : 네이버 쇼핑 리뷰 => https://github.com/bab2min/corpus/tree/master/sentiment
 * 추가 데이터(한국어) : 한국어 혐오발언 => https://github.com/kocohub/korean-hate-speech
 * 추가 데이터(영어) : The Sentiment and Emotion Lexicons => http://sentiment.nrc.ca/lexicons-for-research/
+
+---
 
 * 리스트1
   - 리스트2
