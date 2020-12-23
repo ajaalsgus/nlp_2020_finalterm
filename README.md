@@ -20,8 +20,7 @@ XGBoost | (상동) | -
 Light GBM | (상동) | -
 
 * **딥러닝 모델**
-  - ANN : [참고 소스 출처](https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html
-https://devtimes.com/nlp-korea-movie-review)
+  - ANN : [참고 소스 출처](https://devtimes.com/nlp-korea-movie-review)
   - CNN : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
   - LSTM : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
   - BERT : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
