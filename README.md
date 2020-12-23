@@ -8,7 +8,7 @@
 ---
 
 ## 1. 영어(Friends)
-* **데이터 출처** : http://doraemon.iis.sinica.edu.tw/emotionlines/index.html
+* **데이터 출처** : http://doraemon.iis.sinica.edu.tw/emotionlines/
 
 * **머신러닝 모델**
   - Logistic Regression
