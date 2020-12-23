@@ -16,10 +16,10 @@
 
 머신러닝 모델 | 전처리 | 모델 상세
 ----- | ----- | -----
-Logistic Regression | NLTK, TF-IDF, Regular Expression  | 기본 하이퍼파라미터 적용
-Random Forest | (상동) | 기본 하이퍼파라미터 적용
-XGBoost | (상동) | 기본 하이퍼파라미터 적용
-Light GBM | (상동) | 기본 하이퍼파라미터 적용
+Logistic Regression | NLTK, TF-IDF, Regular Expression  | 별도 하이퍼파라미터 적용 없음
+Random Forest | (상동) | 별도 하이퍼파라미터 적용 없음
+XGBoost | (상동) | 별도 하이퍼파라미터 적용 없음
+Light GBM | (상동) | 별도 하이퍼파라미터 적용 없음
 
 * **딥러닝 모델**
   - ANN : [참고 소스 출처](https://devtimes.com/nlp-korea-movie-review)
@@ -43,14 +43,14 @@ ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base
 
 ## 2. 한국어(NSMC)
 * **머신러닝 모델**
-  - Logistic Regression : 
-  - Random Forest : KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용
-  - XGBoost : KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용
-  - Light GBM : KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용
+  - Logistic Regression
+  - Random Forest
+  - XGBoost
+  - Light GBM
 
 머신러닝 모델 | 전처리 | 모델 상세
 ----- | ----- | -----
-Logistic Regression | KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용 | ?
+Logistic Regression | KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용 | 별도 하이퍼파라미터 적용 없음
 Random Forest | (상동) | (상동)
 XGBoost | (상동) | (상동)
 Light GBM | (상동) | (상동)
