@@ -110,25 +110,3 @@ KoELECTRA | KoELECTRA-v3 토크나이저 적용 | KoELECTRA-v3 모델 적용
 [블로그 주소][blog]
 
 [blog]: https://lsh424.tistory.com/
-
-
-# 9. 이미지 추가하기
-![이탈리아 포지타노](https://user-images.githubusercontent.com/31477658/85016059-f962aa80-b1a3-11ea-8c91-dacba2666b78.jpeg)
-
-### 이미지 사이즈 조절
-<img src="https://user-images.githubusercontent.com/31477658/85016059-f962aa80-b1a3-11ea-8c91-dacba2666b78.jpeg"  width="700" height="370">
-
-# 10. 코드블럭 추가하기
-
-```swift
-public struct CGSize {
-  public var width: CGFloat
-  public var heigth: CGFloat
-  ...
-}
-```
-
-# etc
-
-**텍스트 굵게**  
-~~텍스트 취소선~~
