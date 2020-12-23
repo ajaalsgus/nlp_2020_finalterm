@@ -23,14 +23,14 @@
   - BERT : 텐서플로2와 머신러닝으로 시작하는 자연어 처리(전창욱 외, 위키북스, 2020) 참고
   - ELECTRA : [참고 소스 출처](https://github.com/jiwonny/nlp_emotion_classification/blob/master/friends_electra.ipynb)
 
-머신러닝 모델 | 전처리 | 모델 상세
+머신러닝 | 전처리 | 모델 상세
 ----- | ----- | -----
 Logistic Regression | NLTK, TF-IDF, Regular Expression  | 별도 하이퍼파라미터 적용 없음
 Random Forest | (상동) | (상동)
 XGBoost | (상동) | (상동)
 Light GBM | (상동) | (상동)
 
-딥러닝 모델 | 전처리 | 모델 상세
+딥러닝 | 전처리 | 모델 상세
 ----- | ----- | -----
 ANN | NLTK, TF-IDF, Regular Expression | 각 64개 뉴런(노드) 보유한 2개 은닉층 적용
 CNN | Tensorflow tokenizer, Regular Expression | 1차원 Conv1D 합성곱 레이어 3개 및 Max Pooling 적용
@@ -60,14 +60,14 @@ ELECTRA | 유니코드 '\x92' 제거 | Google 제공 electra-small, electra-base
   - KoBERT : [참고 소스 출처](https://github.com/SKTBrain/KoBERT#using-with-pytorch)
   - KoELECTRA : [참고 소스 출처](https://github.com/monologg/KoELECTRA)
 
-머신러닝 모델 | 전처리 | 모델 상세
+머신러닝 | 전처리 | 모델 상세
 ----- | ----- | -----
 Logistic Regression | KoNLPy Okt(Twitter), TF-IDF, Regular Expression 적용 | 별도 하이퍼파라미터 적용 없음
 Random Forest | (상동) | (상동)
 XGBoost | (상동) | (상동)
 Light GBM | (상동) | (상동)
 
-딥러닝 모델 | 전처리 | 모델 상세
+딥러닝 | 전처리 | 모델 상세
 ----- | ----- | -----
 ANN | KoNLPy Okt(Twitter), Count Vectorization, Regular Expression | 각 64개 뉴런(노드) 보유한 2개 은닉층 적용
 CNN | KoNLPy Okt(Twitter), Tensorflow tokenizer, Regular Expression | 1차원 Conv1D 합성곱 레이어 3개 및 Max Pooling 적용
