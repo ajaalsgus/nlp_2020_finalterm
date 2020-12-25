@@ -4,6 +4,7 @@
   - [Korean SA Competition - BDC101](https://www.kaggle.com/c/korean-sa-competition-bdc101/)
 * 머신러닝, 딥러닝, 앙상블 기법 활용하여 견고한 성능의 모형을 구축하는 것을 목표로 함
 * 모델 관련 출처 등 별도 설명 없는 것은 직접 구현 대상
+* 저장소 내 업로드한 소스에 기입된 캐글 점수는 Public Leaderboard score 기준이며, Private Leaderboard score는 레포트에 기입
 * 영어 모델 저장소 : https://github.com/ajaalsgus/nlp_2020_finalterm/tree/main/01_FRIENDS
 * 한국어 모델 저장소 : https://github.com/ajaalsgus/nlp_2020_finalterm/tree/main/02_NSMC
 
